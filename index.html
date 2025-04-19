@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Medla Motors</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0d0d0d;
+      color: #f0f0f0;
+    }
+    header {
+      background: linear-gradient(to right, #111, #1a1a1a);
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3rem;
+      color: #00ccff;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #ccc;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .car-showcase {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .car {
+      background: #1a1a1a;
+      border-radius: 10px;
+      padding: 20px;
+      width: 260px;
+    }
+    .car h3 {
+      color: #00ccff;
+    }
+    form input, form textarea {
+      width: 100%;
+      margin: 10px 0;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+    }
+    form button {
+      padding: 10px 20px;
+      background-color: #00ccff;
+      border: none;
+      border-radius: 5px;
+      color: black;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #111;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Medla</h1>
+    <p>Driving the Future. Electrify Your Journey.</p>
+  </header>
+
+  <section>
+    <h2>About Medla</h2>
+    <p>Medla is a visionary car brand shaping the future of mobility. Our mission is to blend sustainability, smart technology, and elegant design into every vehicle.</p>
+  </section>
+
+  <section>
+    <h2>Concept Cars</h2>
+    <div class="car-showcase">
+      <div class="car">
+        <h3>Medla Volt</h3>
+        <p>A sleek, fully electric sedan with AI driving assistant and ultra-fast charging.</p>
+      </div>
+      <div class="car">
+        <h3>Medla Pulse</h3>
+        <p>Compact urban EV with smart HUD, self-parking, and solar roof charging.</p>
+      </div>
+      <div class="car">
+        <h3>Medla X</h3>
+        <p>All-terrain crossover with dual-motor power, adaptive suspension, and voice control.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 Medla Motors. All rights reserved.
+  </footer>
+</body>
+</html>
